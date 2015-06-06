@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
         NSArray *days = [NSArray arrayWithObjects: @"First", @"Second", @"Third", @"Fourth", @"Fifth", @"Sixth", @"Seventh", @"Eighth", @"Ninth", @"Tenth", @"Eleventh", @"Twelvth", nil];
         
         
-        NSArray *presents = [NSArray arrayWithObjects: @"and A Partridge in a Pear Tree", @"Two Turtle Doves", @"Three French Hens", @"Four Calling Birds", @"Five Golden Rings", @"Six Geese a Laying", @"Seven Swans a Swimming", @"Eight Maids a Milking", @"Nine Ladies Dancing", @"Ten Lords a Leaping", @"Eleven Pipers Piping", @"12 Drummers Drumming", nil];
+        NSArray *presents = [NSArray arrayWithObjects: @"and A Partridge in a Pear Tree", @"Two Turtle Doves", @"Three French Hens", @"??????????????What is this?????????????", @"Five Golden Rings", @"Six Geese a Laying", @"Seven Swans a Swimming", @"Eight Maids a Milking", @"Nine Ladies Dancing", @"Ten Lords a Leaping", @"Eleven Pipers Piping", @"12 Drummers Drumming", nil];
         for( int i=0; i<12 ; i++){
             
             if(i == 0){
@@ -28,10 +28,18 @@ int main(int argc, const char * argv[]) {
                 for(int j = i; j>=0; j--){
                     int i =0;
                     
+                    
                 }
             }
         }
         
     }
+    
+    
+    int i = 10;
+    int j = 20;
+    
+    
+    
     return 0;
 }
