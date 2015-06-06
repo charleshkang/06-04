@@ -13,10 +13,12 @@ int main(int argc, const char * argv[]) {
         NSString *onThe = @"On the";
         NSString *ofChristmas = @"of Christmas my true love gave to me";
         
-        NSArray *days = [NSArray arrayWithObjects: @"First", @"Second", @"Third", @"Fourth", @"Fifth", @"Sixth", @"Seventh", @"Eighth", @"Ninth", @"Tenth", @"Eleventh", @"Twelvth", nil];
+        NSArray *days = [NSArray arrayWithObjects: @"First", @"Second", @"Third", @"Fourth", @"Fifth", @"Sixth", @"Seventh", @"Eighth", @"Ninth", @"Tenth", @"Eleventh", @"Twelfth", nil];
+        
+        //first place is a new camaro. second place is a set of steak knives. third place is you're fired!
         
         
-        NSArray *presents = [NSArray arrayWithObjects: @"and A Partridge in a Bear Tree", @"Two Turtle Gloves", @"Three French Men", @"Four Baby Birds", @"Five Golden Thumb", @"Six Geese a Playing", @"Seven Swans a Singing", @"Eight Maids a Mooing", @"Nine Ladies Prancing", @"Ten Gourds a Leaping", @"Eleven Pipers Pooping", @"12 Drummers Drumming", nil];
+        NSArray *presents = [NSArray arrayWithObjects: @"and A Partridge in a Bear Tree", @"Two Turtle Gloves", @"Three French Men", @"Four Baby Birds", @"Five Golden Thumb", @"Six Geese a Playing", @"Seven Swans a Swinging", @"Eight Maids a Floofing", @"Nine Ladies Prancing", @"Ten Gourds a Leaping", @"Eleven Pipers Pooping", @"12 Drummers Drumming", nil];
         for( int i=0; i<12 ; i++){
             
             if(i == 0){
